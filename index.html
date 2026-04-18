@@ -1,12 +1,306 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy</title>
-</head>
-<body>
-  <h1>Privacy Policy</h1>
-  <p>This page will be updated.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>プライバシーポリシー — Parallel Calculator</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0e0e14;
+        color: #d0d0e8;
+        line-height: 1.8;
+        padding: 40px 20px 80px;
+      }
+
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      header {
+        margin-bottom: 48px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #2a2a3c;
+      }
+
+      .app-name {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #8b5cf6;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 12px;
+      }
+
+      .updated {
+        font-size: 13px;
+        color: #4a4a6a;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        font-size: 17px;
+        font-weight: 600;
+        color: #c4b5fd;
+        margin-bottom: 12px;
+        padding-left: 12px;
+        border-left: 3px solid #8b5cf6;
+      }
+
+      p {
+        font-size: 15px;
+        color: #b0b0cc;
+        margin-bottom: 12px;
+      }
+
+      ul {
+        padding-left: 20px;
+        margin-bottom: 12px;
+      }
+
+      li {
+        font-size: 15px;
+        color: #b0b0cc;
+        margin-bottom: 6px;
+      }
+
+      .card {
+        background: #1a1a28;
+        border: 1px solid #2a2a3c;
+        border-radius: 12px;
+        padding: 20px 24px;
+        margin-bottom: 12px;
+      }
+
+      .card-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #c4b5fd;
+        margin-bottom: 6px;
+      }
+
+      .card p {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+
+      a {
+        color: #8b5cf6;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .badge {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        background: #262638;
+        color: #8b5cf6;
+        border: 1px solid #8b5cf6;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+
+      footer {
+        margin-top: 64px;
+        padding-top: 24px;
+        border-top: 1px solid #2a2a3c;
+        font-size: 13px;
+        color: #4a4a6a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p class="app-name">Parallel Calculator</p>
+        <h1>プライバシーポリシー</h1>
+        <p class="updated">最終更新日: 2026年4月19日</p>
+      </header>
+
+      <!-- はじめに -->
+      <section>
+        <h2>はじめに</h2>
+        <p>
+          Parallel
+          Calculator（以下「本アプリ」）をご利用いただきありがとうございます。
+          本プライバシーポリシーは、本アプリが収集する情報とその取り扱いについて説明します。
+        </p>
+        <p>
+          本アプリをインストール・使用することで、本ポリシーの内容に同意したものとみなします。
+        </p>
+      </section>
+
+      <!-- 収集する情報 -->
+      <section>
+        <h2>収集する情報</h2>
+
+        <div class="card">
+          <p class="card-title">端末内のみに保存されるデータ</p>
+          <p>
+            計算内容、タブ名、テーマ設定などのアプリデータは、すべてお使いの端末内（AsyncStorage）にのみ保存されます。
+            これらのデータが外部サーバーへ送信されることはありません。
+          </p>
+        </div>
+
+        <div class="card">
+          <p class="card-title">
+            <span class="badge">広告</span> 広告識別子（IDFA）
+          </p>
+          <p>
+            無料プランのユーザーに広告を表示するため、Google AdMob
+            を使用しています。 AdMob
+            は広告のパーソナライズのために広告識別子（IDFA）を収集する場合があります。
+            iOS では App Tracking
+            Transparency（ATT）の許可確認ダイアログが表示され、
+            許可しない場合はパーソナライズされない広告が表示されます。
+          </p>
+        </div>
+
+        <div class="card">
+          <p class="card-title"><span class="badge">課金</span> 購入情報</p>
+          <p>
+            プレミアムプランの購入処理に RevenueCat を使用しています。
+            購入情報（購入日時、プランの種類など）は RevenueCat
+            のサーバーで管理されます。 クレジットカード情報等の決済情報は
+            Apple（App Store）が管理し、 本アプリ・RevenueCat は保持しません。
+          </p>
+        </div>
+      </section>
+
+      <!-- 情報の使用目的 -->
+      <section>
+        <h2>情報の使用目的</h2>
+        <ul>
+          <li>アプリの機能提供（計算データ・設定の保存と復元）</li>
+          <li>広告の表示（無料プランのユーザー向け）</li>
+          <li>プレミアムプランの購入状態の管理・復元</li>
+          <li>アプリの改善・不具合の修正</li>
+        </ul>
+      </section>
+
+      <!-- 第三者サービス -->
+      <section>
+        <h2>使用している第三者サービス</h2>
+        <p>
+          本アプリは以下のサービスを使用しており、それぞれのプライバシーポリシーが適用されます。
+        </p>
+
+        <div class="card">
+          <p class="card-title">Google AdMob</p>
+          <p>
+            広告配信サービス。広告識別子の収集・広告パフォーマンスの計測に使用します。<br />
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener"
+            >
+              Google プライバシーポリシー →
+            </a>
+          </p>
+        </div>
+
+        <div class="card">
+          <p class="card-title">RevenueCat</p>
+          <p>
+            アプリ内課金管理サービス。プレミアムプランの購入・復元処理に使用します。<br />
+            <a
+              href="https://www.revenuecat.com/privacy"
+              target="_blank"
+              rel="noopener"
+            >
+              RevenueCat プライバシーポリシー →
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- App Tracking Transparency -->
+      <section>
+        <h2>App Tracking Transparency（ATT）について</h2>
+        <p>
+          iOS 14.5
+          以降では、広告識別子（IDFA）の使用に際してユーザーの許可が必要です。
+          初回起動時にトラッキングの許可を求めるダイアログが表示されます。
+        </p>
+        <ul>
+          <li>
+            <strong style="color: #c4b5fd">許可する場合</strong>:
+            お客様の興味に合ったパーソナライズ広告が表示されます。
+          </li>
+          <li>
+            <strong style="color: #c4b5fd">許可しない場合</strong>:
+            パーソナライズされない広告が表示されます。アプリの基本機能はすべてご利用いただけます。
+          </li>
+        </ul>
+        <p>
+          設定は後から変更できます。<br />
+          「設定」→「プライバシーとセキュリティ」→「トラッキング」→「Parallel
+          Calculator」
+        </p>
+      </section>
+
+      <!-- 未成年者 -->
+      <section>
+        <h2>お子様のプライバシー</h2>
+        <p>
+          本アプリは13歳未満のお子様を対象としていません。
+          13歳未満の方から意図せず個人情報を収集していることが判明した場合は、速やかに削除します。
+        </p>
+      </section>
+
+      <!-- ポリシーの変更 -->
+      <section>
+        <h2>プライバシーポリシーの変更</h2>
+        <p>
+          本ポリシーは必要に応じて更新することがあります。
+          重要な変更がある場合はアプリのアップデートでお知らせします。
+          最新のポリシーは常にこのページで確認できます。
+        </p>
+      </section>
+
+      <!-- お問い合わせ -->
+      <section>
+        <h2>お問い合わせ</h2>
+        <p>
+          本プライバシーポリシーに関するご質問・ご意見は以下までお問い合わせください。
+        </p>
+        <p>
+          メール:
+          <a href="mailto:ryusei.hello.world@gmail.com"
+            >ryusei.hello.world@gmail.com</a
+          >
+        </p>
+      </section>
+
+      <footer>
+        <p>© 2026 Parallel Calculator. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 </html>
